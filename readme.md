@@ -6,7 +6,7 @@ layer that enables to logically centralize system data in a standardized way.
 **Note:**  
 **The original GitHub account has been deactivated due to email issues.**   
 **The original repository is no longer being updated.**    
-**The original dataset has been deleted**
+**The original dataset has been deleted.**
 
 ## System Architecture
 [![Click to view PDF](./systemArchitecture/architectureV2-29.01.png)](./systemArchitecture/architectureV2-29.01.pdf)
