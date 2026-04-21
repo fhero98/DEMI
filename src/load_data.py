@@ -6,14 +6,14 @@ current_file_dir = Path(__file__).parent
 
 
 
-df_E4C_Session_25 = pd.read_excel(current_file_dir/"../../rawData/20240530_20250530_recharge_detail_records.xlsx")
+df_E4C_Session_25 = pd.read_excel(current_file_dir/"../rawData/20240530_20250530_recharge_detail_records.xlsx")
 df_E4C_Session_25 = df_E4C_Session_25.iloc[:, 1:] # 读取后删除第一列
 df_DX_Session = df_E4C_Session_25[df_E4C_Session_25['location_name'] == 'PS 030-1 - IPP - Drahi - X']
 
 #B103
-path_b103_25 = current_file_dir/"../../rawData/building103/sessionRepport_EN_31_12_2025_03_16_37_688.xlsx" 
-path_b103_24 = current_file_dir/"../../rawData/building103/sessionRepport_EN_31_12_2024_03_15_45_940.xlsx"
-path_b103_23 = current_file_dir/"../../rawData/building103/sessionRepport_EN_31_12_2023_03_18_23_207.xlsx"
+path_b103_25 = current_file_dir/"../rawData/building103/sessionRepport_EN_31_12_2025_03_16_37_688.xlsx" 
+path_b103_24 = current_file_dir/"../rawData/building103/sessionRepport_EN_31_12_2024_03_15_45_940.xlsx"
+path_b103_23 = current_file_dir/"../rawData/building103/sessionRepport_EN_31_12_2023_03_18_23_207.xlsx"
 
 df_b103_25 = pd.read_excel(path_b103_25, sheet_name=2)
 df_b103_24 = pd.read_excel(path_b103_24, sheet_name=2)
