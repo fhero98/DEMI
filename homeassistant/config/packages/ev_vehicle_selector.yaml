@@ -1,0 +1,118 @@
+# Generated automatically from the EV Excel file
+# Copy this file to: /config/packages/ev_vehicle_selector.yaml
+
+input_select:
+  ev_selected_vehicle:
+    name: EV Selected Vehicle
+    options:
+      - "00000000"
+      - "00000001"
+      - "00000002"
+      - "02defedf"
+      - "04a60f38"
+      - "06b4e245"
+      - "0a3cf3a1"
+      - "0a43f089"
+      - "1a5bec89"
+      - "24fa153b"
+      - "2677e745"
+      - "26e6df45"
+      - "2a28ee89"
+      - "2aa3f3a1"
+      - "32a6fddf"
+      - "42c5fedf"
+      - "44910d38"
+      - "5207fddf"
+      - "5404153b"
+      - "54e30d38"
+      - "5a66ef89"
+      - "625ffedf"
+      - "648e153b"
+      - "6a0ff2a1"
+      - "74ea193b"
+      - "7a25ef89"
+      - "84591338"
+      - "869add45"
+      - "929dfedf"
+      - "94a71038"
+      - "96f9df45"
+      - "9a69ee89"
+      - "aa41f1a1"
+      - "b631e045"
+      - "b652dd45"
+      - "ba75f2a1"
+      - "baa7ef89"
+      - "c14b3f34"
+      - "c6fae045"
+      - "d6b1de45"
+      - "d6b9dc45"
+      - "da42f089"
+      - "e4c0183b"
+      - "e666de45"
+      - "f692de45"
+      - "fa0bef89"
+      - "fa40ed89"
+      - "test"
+    initial: "00000000"
+
+template:
+  - sensor:
+      - name: "EV Selected Vehicle ID"
+        unique_id: ev_selected_vehicle_id
+        state: "{{ states('input_select.ev_selected_vehicle') }}"
+
+      - name: "EV Selected Daily Completed"
+        unique_id: ev_selected_daily_completed
+        state: >
+          {{ states('counter.ev_daily_completed_' ~ states('input_select.ev_selected_vehicle')) | int(0) }}
+
+      - name: "EV Selected Daily Failed"
+        unique_id: ev_selected_daily_failed
+        state: >
+          {{ states('counter.ev_daily_failed_' ~ states('input_select.ev_selected_vehicle')) | int(0) }}
+
+      - name: "EV Selected Daily Energy"
+        unique_id: ev_selected_daily_energy
+        unit_of_measurement: "kWh"
+        state: >
+          {{ states('input_number.ev_daily_energy_' ~ states('input_select.ev_selected_vehicle')) | float(0) }}
+
+      - name: "EV Selected Daily Duration"
+        unique_id: ev_selected_daily_duration
+        unit_of_measurement: "min"
+        state: >
+          {{ states('input_number.ev_daily_duration_' ~ states('input_select.ev_selected_vehicle')) | float(0) }}
+
+      - name: "EV Selected Daily Max Power"
+        unique_id: ev_selected_daily_max_power
+        unit_of_measurement: "kW"
+        state: >
+          {{ states('input_number.ev_daily_max_power_' ~ states('input_select.ev_selected_vehicle')) | float(0) }}
+
+      - name: "EV Selected Weekly Completed"
+        unique_id: ev_selected_weekly_completed
+        state: >
+          {{ states('counter.ev_weekly_completed_' ~ states('input_select.ev_selected_vehicle')) | int(0) }}
+
+      - name: "EV Selected Weekly Failed"
+        unique_id: ev_selected_weekly_failed
+        state: >
+          {{ states('counter.ev_weekly_failed_' ~ states('input_select.ev_selected_vehicle')) | int(0) }}
+
+      - name: "EV Selected Weekly Energy"
+        unique_id: ev_selected_weekly_energy
+        unit_of_measurement: "kWh"
+        state: >
+          {{ states('input_number.ev_weekly_energy_' ~ states('input_select.ev_selected_vehicle')) | float(0) }}
+
+      - name: "EV Selected Weekly Duration"
+        unique_id: ev_selected_weekly_duration
+        unit_of_measurement: "min"
+        state: >
+          {{ states('input_number.ev_weekly_duration_' ~ states('input_select.ev_selected_vehicle')) | float(0) }}
+
+      - name: "EV Selected Weekly Max Power"
+        unique_id: ev_selected_weekly_max_power
+        unit_of_measurement: "kW"
+        state: >
+          {{ states('input_number.ev_weekly_max_power_' ~ states('input_select.ev_selected_vehicle')) | float(0) }}

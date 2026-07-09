@@ -1,0 +1,1667 @@
+# Generated automatically from the EV Excel file
+# Copy this file to: /config/packages/ev_daily_summary.yaml
+
+counter:
+  ev_daily_completed_00000000:
+    name: EV Daily Completed 00000000
+    initial: 0
+    step: 1
+
+  ev_daily_failed_00000000:
+    name: EV Daily Failed 00000000
+    initial: 0
+    step: 1
+
+  ev_daily_completed_00000001:
+    name: EV Daily Completed 00000001
+    initial: 0
+    step: 1
+
+  ev_daily_failed_00000001:
+    name: EV Daily Failed 00000001
+    initial: 0
+    step: 1
+
+  ev_daily_completed_00000002:
+    name: EV Daily Completed 00000002
+    initial: 0
+    step: 1
+
+  ev_daily_failed_00000002:
+    name: EV Daily Failed 00000002
+    initial: 0
+    step: 1
+
+  ev_daily_completed_02defedf:
+    name: EV Daily Completed 02DEFEDF
+    initial: 0
+    step: 1
+
+  ev_daily_failed_02defedf:
+    name: EV Daily Failed 02DEFEDF
+    initial: 0
+    step: 1
+
+  ev_daily_completed_04a60f38:
+    name: EV Daily Completed 04A60F38
+    initial: 0
+    step: 1
+
+  ev_daily_failed_04a60f38:
+    name: EV Daily Failed 04A60F38
+    initial: 0
+    step: 1
+
+  ev_daily_completed_06b4e245:
+    name: EV Daily Completed 06B4E245
+    initial: 0
+    step: 1
+
+  ev_daily_failed_06b4e245:
+    name: EV Daily Failed 06B4E245
+    initial: 0
+    step: 1
+
+  ev_daily_completed_0a3cf3a1:
+    name: EV Daily Completed 0A3CF3A1
+    initial: 0
+    step: 1
+
+  ev_daily_failed_0a3cf3a1:
+    name: EV Daily Failed 0A3CF3A1
+    initial: 0
+    step: 1
+
+  ev_daily_completed_0a43f089:
+    name: EV Daily Completed 0A43F089
+    initial: 0
+    step: 1
+
+  ev_daily_failed_0a43f089:
+    name: EV Daily Failed 0A43F089
+    initial: 0
+    step: 1
+
+  ev_daily_completed_1a5bec89:
+    name: EV Daily Completed 1A5BEC89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_1a5bec89:
+    name: EV Daily Failed 1A5BEC89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_24fa153b:
+    name: EV Daily Completed 24FA153B
+    initial: 0
+    step: 1
+
+  ev_daily_failed_24fa153b:
+    name: EV Daily Failed 24FA153B
+    initial: 0
+    step: 1
+
+  ev_daily_completed_2677e745:
+    name: EV Daily Completed 2677E745
+    initial: 0
+    step: 1
+
+  ev_daily_failed_2677e745:
+    name: EV Daily Failed 2677E745
+    initial: 0
+    step: 1
+
+  ev_daily_completed_26e6df45:
+    name: EV Daily Completed 26E6DF45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_26e6df45:
+    name: EV Daily Failed 26E6DF45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_2a28ee89:
+    name: EV Daily Completed 2A28EE89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_2a28ee89:
+    name: EV Daily Failed 2A28EE89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_2aa3f3a1:
+    name: EV Daily Completed 2AA3F3A1
+    initial: 0
+    step: 1
+
+  ev_daily_failed_2aa3f3a1:
+    name: EV Daily Failed 2AA3F3A1
+    initial: 0
+    step: 1
+
+  ev_daily_completed_32a6fddf:
+    name: EV Daily Completed 32A6FDDF
+    initial: 0
+    step: 1
+
+  ev_daily_failed_32a6fddf:
+    name: EV Daily Failed 32A6FDDF
+    initial: 0
+    step: 1
+
+  ev_daily_completed_42c5fedf:
+    name: EV Daily Completed 42C5FEDF
+    initial: 0
+    step: 1
+
+  ev_daily_failed_42c5fedf:
+    name: EV Daily Failed 42C5FEDF
+    initial: 0
+    step: 1
+
+  ev_daily_completed_44910d38:
+    name: EV Daily Completed 44910D38
+    initial: 0
+    step: 1
+
+  ev_daily_failed_44910d38:
+    name: EV Daily Failed 44910D38
+    initial: 0
+    step: 1
+
+  ev_daily_completed_5207fddf:
+    name: EV Daily Completed 5207FDDF
+    initial: 0
+    step: 1
+
+  ev_daily_failed_5207fddf:
+    name: EV Daily Failed 5207FDDF
+    initial: 0
+    step: 1
+
+  ev_daily_completed_5404153b:
+    name: EV Daily Completed 5404153B
+    initial: 0
+    step: 1
+
+  ev_daily_failed_5404153b:
+    name: EV Daily Failed 5404153B
+    initial: 0
+    step: 1
+
+  ev_daily_completed_54e30d38:
+    name: EV Daily Completed 54E30D38
+    initial: 0
+    step: 1
+
+  ev_daily_failed_54e30d38:
+    name: EV Daily Failed 54E30D38
+    initial: 0
+    step: 1
+
+  ev_daily_completed_5a66ef89:
+    name: EV Daily Completed 5A66EF89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_5a66ef89:
+    name: EV Daily Failed 5A66EF89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_625ffedf:
+    name: EV Daily Completed 625FFEDF
+    initial: 0
+    step: 1
+
+  ev_daily_failed_625ffedf:
+    name: EV Daily Failed 625FFEDF
+    initial: 0
+    step: 1
+
+  ev_daily_completed_648e153b:
+    name: EV Daily Completed 648E153B
+    initial: 0
+    step: 1
+
+  ev_daily_failed_648e153b:
+    name: EV Daily Failed 648E153B
+    initial: 0
+    step: 1
+
+  ev_daily_completed_6a0ff2a1:
+    name: EV Daily Completed 6A0FF2A1
+    initial: 0
+    step: 1
+
+  ev_daily_failed_6a0ff2a1:
+    name: EV Daily Failed 6A0FF2A1
+    initial: 0
+    step: 1
+
+  ev_daily_completed_74ea193b:
+    name: EV Daily Completed 74EA193B
+    initial: 0
+    step: 1
+
+  ev_daily_failed_74ea193b:
+    name: EV Daily Failed 74EA193B
+    initial: 0
+    step: 1
+
+  ev_daily_completed_7a25ef89:
+    name: EV Daily Completed 7A25EF89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_7a25ef89:
+    name: EV Daily Failed 7A25EF89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_84591338:
+    name: EV Daily Completed 84591338
+    initial: 0
+    step: 1
+
+  ev_daily_failed_84591338:
+    name: EV Daily Failed 84591338
+    initial: 0
+    step: 1
+
+  ev_daily_completed_869add45:
+    name: EV Daily Completed 869ADD45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_869add45:
+    name: EV Daily Failed 869ADD45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_929dfedf:
+    name: EV Daily Completed 929DFEDF
+    initial: 0
+    step: 1
+
+  ev_daily_failed_929dfedf:
+    name: EV Daily Failed 929DFEDF
+    initial: 0
+    step: 1
+
+  ev_daily_completed_94a71038:
+    name: EV Daily Completed 94A71038
+    initial: 0
+    step: 1
+
+  ev_daily_failed_94a71038:
+    name: EV Daily Failed 94A71038
+    initial: 0
+    step: 1
+
+  ev_daily_completed_96f9df45:
+    name: EV Daily Completed 96F9DF45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_96f9df45:
+    name: EV Daily Failed 96F9DF45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_9a69ee89:
+    name: EV Daily Completed 9A69EE89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_9a69ee89:
+    name: EV Daily Failed 9A69EE89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_aa41f1a1:
+    name: EV Daily Completed AA41F1A1
+    initial: 0
+    step: 1
+
+  ev_daily_failed_aa41f1a1:
+    name: EV Daily Failed AA41F1A1
+    initial: 0
+    step: 1
+
+  ev_daily_completed_b631e045:
+    name: EV Daily Completed B631E045
+    initial: 0
+    step: 1
+
+  ev_daily_failed_b631e045:
+    name: EV Daily Failed B631E045
+    initial: 0
+    step: 1
+
+  ev_daily_completed_b652dd45:
+    name: EV Daily Completed B652DD45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_b652dd45:
+    name: EV Daily Failed B652DD45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_ba75f2a1:
+    name: EV Daily Completed BA75F2A1
+    initial: 0
+    step: 1
+
+  ev_daily_failed_ba75f2a1:
+    name: EV Daily Failed BA75F2A1
+    initial: 0
+    step: 1
+
+  ev_daily_completed_baa7ef89:
+    name: EV Daily Completed BAA7EF89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_baa7ef89:
+    name: EV Daily Failed BAA7EF89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_c14b3f34:
+    name: EV Daily Completed C14B3F34
+    initial: 0
+    step: 1
+
+  ev_daily_failed_c14b3f34:
+    name: EV Daily Failed C14B3F34
+    initial: 0
+    step: 1
+
+  ev_daily_completed_c6fae045:
+    name: EV Daily Completed C6FAE045
+    initial: 0
+    step: 1
+
+  ev_daily_failed_c6fae045:
+    name: EV Daily Failed C6FAE045
+    initial: 0
+    step: 1
+
+  ev_daily_completed_d6b1de45:
+    name: EV Daily Completed D6B1DE45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_d6b1de45:
+    name: EV Daily Failed D6B1DE45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_d6b9dc45:
+    name: EV Daily Completed D6B9DC45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_d6b9dc45:
+    name: EV Daily Failed D6B9DC45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_da42f089:
+    name: EV Daily Completed DA42F089
+    initial: 0
+    step: 1
+
+  ev_daily_failed_da42f089:
+    name: EV Daily Failed DA42F089
+    initial: 0
+    step: 1
+
+  ev_daily_completed_e4c0183b:
+    name: EV Daily Completed E4C0183B
+    initial: 0
+    step: 1
+
+  ev_daily_failed_e4c0183b:
+    name: EV Daily Failed E4C0183B
+    initial: 0
+    step: 1
+
+  ev_daily_completed_e666de45:
+    name: EV Daily Completed E666DE45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_e666de45:
+    name: EV Daily Failed E666DE45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_f692de45:
+    name: EV Daily Completed F692DE45
+    initial: 0
+    step: 1
+
+  ev_daily_failed_f692de45:
+    name: EV Daily Failed F692DE45
+    initial: 0
+    step: 1
+
+  ev_daily_completed_fa0bef89:
+    name: EV Daily Completed FA0BEF89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_fa0bef89:
+    name: EV Daily Failed FA0BEF89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_fa40ed89:
+    name: EV Daily Completed FA40ED89
+    initial: 0
+    step: 1
+
+  ev_daily_failed_fa40ed89:
+    name: EV Daily Failed FA40ED89
+    initial: 0
+    step: 1
+
+  ev_daily_completed_test:
+    name: EV Daily Completed Test
+    initial: 0
+    step: 1
+
+  ev_daily_failed_test:
+    name: EV Daily Failed Test
+    initial: 0
+    step: 1
+
+input_number:
+  ev_daily_energy_00000000:
+    name: EV Daily Energy 00000000
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_00000000:
+    name: EV Daily Duration 00000000
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_00000000:
+    name: EV Daily Max Power 00000000
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_00000001:
+    name: EV Daily Energy 00000001
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_00000001:
+    name: EV Daily Duration 00000001
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_00000001:
+    name: EV Daily Max Power 00000001
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_00000002:
+    name: EV Daily Energy 00000002
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_00000002:
+    name: EV Daily Duration 00000002
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_00000002:
+    name: EV Daily Max Power 00000002
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_02defedf:
+    name: EV Daily Energy 02DEFEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_02defedf:
+    name: EV Daily Duration 02DEFEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_02defedf:
+    name: EV Daily Max Power 02DEFEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_04a60f38:
+    name: EV Daily Energy 04A60F38
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_04a60f38:
+    name: EV Daily Duration 04A60F38
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_04a60f38:
+    name: EV Daily Max Power 04A60F38
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_06b4e245:
+    name: EV Daily Energy 06B4E245
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_06b4e245:
+    name: EV Daily Duration 06B4E245
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_06b4e245:
+    name: EV Daily Max Power 06B4E245
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_0a3cf3a1:
+    name: EV Daily Energy 0A3CF3A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_0a3cf3a1:
+    name: EV Daily Duration 0A3CF3A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_0a3cf3a1:
+    name: EV Daily Max Power 0A3CF3A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_0a43f089:
+    name: EV Daily Energy 0A43F089
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_0a43f089:
+    name: EV Daily Duration 0A43F089
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_0a43f089:
+    name: EV Daily Max Power 0A43F089
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_1a5bec89:
+    name: EV Daily Energy 1A5BEC89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_1a5bec89:
+    name: EV Daily Duration 1A5BEC89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_1a5bec89:
+    name: EV Daily Max Power 1A5BEC89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_24fa153b:
+    name: EV Daily Energy 24FA153B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_24fa153b:
+    name: EV Daily Duration 24FA153B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_24fa153b:
+    name: EV Daily Max Power 24FA153B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_2677e745:
+    name: EV Daily Energy 2677E745
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_2677e745:
+    name: EV Daily Duration 2677E745
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_2677e745:
+    name: EV Daily Max Power 2677E745
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_26e6df45:
+    name: EV Daily Energy 26E6DF45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_26e6df45:
+    name: EV Daily Duration 26E6DF45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_26e6df45:
+    name: EV Daily Max Power 26E6DF45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_2a28ee89:
+    name: EV Daily Energy 2A28EE89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_2a28ee89:
+    name: EV Daily Duration 2A28EE89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_2a28ee89:
+    name: EV Daily Max Power 2A28EE89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_2aa3f3a1:
+    name: EV Daily Energy 2AA3F3A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_2aa3f3a1:
+    name: EV Daily Duration 2AA3F3A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_2aa3f3a1:
+    name: EV Daily Max Power 2AA3F3A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_32a6fddf:
+    name: EV Daily Energy 32A6FDDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_32a6fddf:
+    name: EV Daily Duration 32A6FDDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_32a6fddf:
+    name: EV Daily Max Power 32A6FDDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_42c5fedf:
+    name: EV Daily Energy 42C5FEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_42c5fedf:
+    name: EV Daily Duration 42C5FEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_42c5fedf:
+    name: EV Daily Max Power 42C5FEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_44910d38:
+    name: EV Daily Energy 44910D38
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_44910d38:
+    name: EV Daily Duration 44910D38
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_44910d38:
+    name: EV Daily Max Power 44910D38
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_5207fddf:
+    name: EV Daily Energy 5207FDDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_5207fddf:
+    name: EV Daily Duration 5207FDDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_5207fddf:
+    name: EV Daily Max Power 5207FDDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_5404153b:
+    name: EV Daily Energy 5404153B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_5404153b:
+    name: EV Daily Duration 5404153B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_5404153b:
+    name: EV Daily Max Power 5404153B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_54e30d38:
+    name: EV Daily Energy 54E30D38
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_54e30d38:
+    name: EV Daily Duration 54E30D38
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_54e30d38:
+    name: EV Daily Max Power 54E30D38
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_5a66ef89:
+    name: EV Daily Energy 5A66EF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_5a66ef89:
+    name: EV Daily Duration 5A66EF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_5a66ef89:
+    name: EV Daily Max Power 5A66EF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_625ffedf:
+    name: EV Daily Energy 625FFEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_625ffedf:
+    name: EV Daily Duration 625FFEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_625ffedf:
+    name: EV Daily Max Power 625FFEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_648e153b:
+    name: EV Daily Energy 648E153B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_648e153b:
+    name: EV Daily Duration 648E153B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_648e153b:
+    name: EV Daily Max Power 648E153B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_6a0ff2a1:
+    name: EV Daily Energy 6A0FF2A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_6a0ff2a1:
+    name: EV Daily Duration 6A0FF2A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_6a0ff2a1:
+    name: EV Daily Max Power 6A0FF2A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_74ea193b:
+    name: EV Daily Energy 74EA193B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_74ea193b:
+    name: EV Daily Duration 74EA193B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_74ea193b:
+    name: EV Daily Max Power 74EA193B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_7a25ef89:
+    name: EV Daily Energy 7A25EF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_7a25ef89:
+    name: EV Daily Duration 7A25EF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_7a25ef89:
+    name: EV Daily Max Power 7A25EF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_84591338:
+    name: EV Daily Energy 84591338
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_84591338:
+    name: EV Daily Duration 84591338
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_84591338:
+    name: EV Daily Max Power 84591338
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_869add45:
+    name: EV Daily Energy 869ADD45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_869add45:
+    name: EV Daily Duration 869ADD45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_869add45:
+    name: EV Daily Max Power 869ADD45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_929dfedf:
+    name: EV Daily Energy 929DFEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_929dfedf:
+    name: EV Daily Duration 929DFEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_929dfedf:
+    name: EV Daily Max Power 929DFEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_94a71038:
+    name: EV Daily Energy 94A71038
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_94a71038:
+    name: EV Daily Duration 94A71038
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_94a71038:
+    name: EV Daily Max Power 94A71038
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_96f9df45:
+    name: EV Daily Energy 96F9DF45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_96f9df45:
+    name: EV Daily Duration 96F9DF45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_96f9df45:
+    name: EV Daily Max Power 96F9DF45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_9a69ee89:
+    name: EV Daily Energy 9A69EE89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_9a69ee89:
+    name: EV Daily Duration 9A69EE89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_9a69ee89:
+    name: EV Daily Max Power 9A69EE89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_aa41f1a1:
+    name: EV Daily Energy AA41F1A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_aa41f1a1:
+    name: EV Daily Duration AA41F1A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_aa41f1a1:
+    name: EV Daily Max Power AA41F1A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_b631e045:
+    name: EV Daily Energy B631E045
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_b631e045:
+    name: EV Daily Duration B631E045
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_b631e045:
+    name: EV Daily Max Power B631E045
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_b652dd45:
+    name: EV Daily Energy B652DD45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_b652dd45:
+    name: EV Daily Duration B652DD45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_b652dd45:
+    name: EV Daily Max Power B652DD45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_ba75f2a1:
+    name: EV Daily Energy BA75F2A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_ba75f2a1:
+    name: EV Daily Duration BA75F2A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_ba75f2a1:
+    name: EV Daily Max Power BA75F2A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_baa7ef89:
+    name: EV Daily Energy BAA7EF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_baa7ef89:
+    name: EV Daily Duration BAA7EF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_baa7ef89:
+    name: EV Daily Max Power BAA7EF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_c14b3f34:
+    name: EV Daily Energy C14B3F34
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_c14b3f34:
+    name: EV Daily Duration C14B3F34
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_c14b3f34:
+    name: EV Daily Max Power C14B3F34
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_c6fae045:
+    name: EV Daily Energy C6FAE045
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_c6fae045:
+    name: EV Daily Duration C6FAE045
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_c6fae045:
+    name: EV Daily Max Power C6FAE045
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_d6b1de45:
+    name: EV Daily Energy D6B1DE45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_d6b1de45:
+    name: EV Daily Duration D6B1DE45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_d6b1de45:
+    name: EV Daily Max Power D6B1DE45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_d6b9dc45:
+    name: EV Daily Energy D6B9DC45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_d6b9dc45:
+    name: EV Daily Duration D6B9DC45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_d6b9dc45:
+    name: EV Daily Max Power D6B9DC45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_da42f089:
+    name: EV Daily Energy DA42F089
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_da42f089:
+    name: EV Daily Duration DA42F089
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_da42f089:
+    name: EV Daily Max Power DA42F089
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_e4c0183b:
+    name: EV Daily Energy E4C0183B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_e4c0183b:
+    name: EV Daily Duration E4C0183B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_e4c0183b:
+    name: EV Daily Max Power E4C0183B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_e666de45:
+    name: EV Daily Energy E666DE45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_e666de45:
+    name: EV Daily Duration E666DE45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_e666de45:
+    name: EV Daily Max Power E666DE45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_f692de45:
+    name: EV Daily Energy F692DE45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_f692de45:
+    name: EV Daily Duration F692DE45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_f692de45:
+    name: EV Daily Max Power F692DE45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_fa0bef89:
+    name: EV Daily Energy FA0BEF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_fa0bef89:
+    name: EV Daily Duration FA0BEF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_fa0bef89:
+    name: EV Daily Max Power FA0BEF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_fa40ed89:
+    name: EV Daily Energy FA40ED89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_fa40ed89:
+    name: EV Daily Duration FA40ED89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_fa40ed89:
+    name: EV Daily Max Power FA40ED89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_daily_energy_test:
+    name: EV Daily Energy Test
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_daily_duration_test:
+    name: EV Daily Duration Test
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_daily_max_power_test:
+    name: EV Daily Max Power Test
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+group:
+  ev_daily_vehicle_completed_counters:
+    name: EV Daily Vehicle Completed Counters
+    entities:
+      - counter.ev_daily_completed_00000000
+      - counter.ev_daily_completed_00000001
+      - counter.ev_daily_completed_00000002
+      - counter.ev_daily_completed_02defedf
+      - counter.ev_daily_completed_04a60f38
+      - counter.ev_daily_completed_06b4e245
+      - counter.ev_daily_completed_0a3cf3a1
+      - counter.ev_daily_completed_0a43f089
+      - counter.ev_daily_completed_1a5bec89
+      - counter.ev_daily_completed_24fa153b
+      - counter.ev_daily_completed_2677e745
+      - counter.ev_daily_completed_26e6df45
+      - counter.ev_daily_completed_2a28ee89
+      - counter.ev_daily_completed_2aa3f3a1
+      - counter.ev_daily_completed_32a6fddf
+      - counter.ev_daily_completed_42c5fedf
+      - counter.ev_daily_completed_44910d38
+      - counter.ev_daily_completed_5207fddf
+      - counter.ev_daily_completed_5404153b
+      - counter.ev_daily_completed_54e30d38
+      - counter.ev_daily_completed_5a66ef89
+      - counter.ev_daily_completed_625ffedf
+      - counter.ev_daily_completed_648e153b
+      - counter.ev_daily_completed_6a0ff2a1
+      - counter.ev_daily_completed_74ea193b
+      - counter.ev_daily_completed_7a25ef89
+      - counter.ev_daily_completed_84591338
+      - counter.ev_daily_completed_869add45
+      - counter.ev_daily_completed_929dfedf
+      - counter.ev_daily_completed_94a71038
+      - counter.ev_daily_completed_96f9df45
+      - counter.ev_daily_completed_9a69ee89
+      - counter.ev_daily_completed_aa41f1a1
+      - counter.ev_daily_completed_b631e045
+      - counter.ev_daily_completed_b652dd45
+      - counter.ev_daily_completed_ba75f2a1
+      - counter.ev_daily_completed_baa7ef89
+      - counter.ev_daily_completed_c14b3f34
+      - counter.ev_daily_completed_c6fae045
+      - counter.ev_daily_completed_d6b1de45
+      - counter.ev_daily_completed_d6b9dc45
+      - counter.ev_daily_completed_da42f089
+      - counter.ev_daily_completed_e4c0183b
+      - counter.ev_daily_completed_e666de45
+      - counter.ev_daily_completed_f692de45
+      - counter.ev_daily_completed_fa0bef89
+      - counter.ev_daily_completed_fa40ed89
+      - counter.ev_daily_completed_test
+
+automation:
+  - alias: EV Update Daily Analytics Per Vehicle
+    trigger:
+      - platform: mqtt
+        topic: ev/building103/charging_sessions
+    condition:
+      - condition: template
+        value_template: "{{ trigger.payload_json.id_tag_slug is defined }}"
+    variables:
+      vehicle_slug: "{{ trigger.payload_json.id_tag_slug }}"
+      session_status: "{{ trigger.payload_json.session_status | default('unknown') }}"
+      completed_counter: "counter.ev_daily_completed_{{ vehicle_slug }}"
+      failed_counter: "counter.ev_daily_failed_{{ vehicle_slug }}"
+      energy_entity: "input_number.ev_daily_energy_{{ vehicle_slug }}"
+      duration_entity: "input_number.ev_daily_duration_{{ vehicle_slug }}"
+      max_power_entity: "input_number.ev_daily_max_power_{{ vehicle_slug }}"
+      energy_value: "{{ trigger.payload_json.energy_kwh | default(0) | float(0) }}"
+      duration_value: "{{ trigger.payload_json.duration | default(0) | float(0) }}"
+      power_value: "{{ trigger.payload_json.max_power_kw | default(0) | float(0) }}"
+    action:
+      - choose:
+          - conditions:
+              - condition: template
+                value_template: "{{ session_status == 'ended' and states(completed_counter) not in ['unknown', 'unavailable'] }}"
+            sequence:
+              - service: counter.increment
+                data:
+                  entity_id: "{{ completed_counter }}"
+
+              - service: input_number.set_value
+                data:
+                  entity_id: "{{ energy_entity }}"
+                  value: "{{ states(energy_entity) | float(0) + energy_value }}"
+
+              - service: input_number.set_value
+                data:
+                  entity_id: "{{ duration_entity }}"
+                  value: "{{ states(duration_entity) | float(0) + duration_value }}"
+
+              - choose:
+                  - conditions:
+                      - condition: template
+                        value_template: "{{ power_value > (states(max_power_entity) | float(0)) }}"
+                    sequence:
+                      - service: input_number.set_value
+                        data:
+                          entity_id: "{{ max_power_entity }}"
+                          value: "{{ power_value }}"
+
+          - conditions:
+              - condition: template
+                value_template: "{{ session_status == 'failed' and states(failed_counter) not in ['unknown', 'unavailable'] }}"
+            sequence:
+              - service: counter.increment
+                data:
+                  entity_id: "{{ failed_counter }}"
+    mode: queued
+
+  - alias: EV Daily Charging Summary For All Vehicles
+    trigger:
+      - platform: time
+        at: "21:00:00"
+    action:
+      - repeat:
+          for_each: "{{ expand('group.ev_daily_vehicle_completed_counters') | map(attribute='entity_id') | list }}"
+          sequence:
+            - variables:
+                slug: "{{ repeat.item | replace('counter.ev_daily_completed_', '') }}"
+                vehicle_name: "{{ state_attr(repeat.item, 'friendly_name') | replace('EV Daily Completed ', '') }}"
+                completed: "{{ states('counter.ev_daily_completed_' ~ slug) }}"
+                failed: "{{ states('counter.ev_daily_failed_' ~ slug) }}"
+                energy: "{{ states('input_number.ev_daily_energy_' ~ slug) }}"
+                duration: "{{ states('input_number.ev_daily_duration_' ~ slug) }}"
+                max_power: "{{ states('input_number.ev_daily_max_power_' ~ slug) }}"
+
+            - service: notify.mobile_app_fotis_device
+              data:
+                title: "EV Daily Summary {{ vehicle_name }}"
+                message: >
+                  Completed sessions today: {{ completed }}
+                  Failed sessions today: {{ failed }}
+                  Total energy today: {{ energy }} kWh
+                  Total duration today: {{ duration }} min
+                  Max power today: {{ max_power }} kW
+                data:
+                  tag: "daily_summary_{{ slug }}"
+                  group: "daily_summary_{{ slug }}"
+                  channel: "EV Daily Summary"
+
+            - delay:
+                seconds: 2
+
+      - repeat:
+          for_each: "{{ expand('group.ev_daily_vehicle_completed_counters') | map(attribute='entity_id') | list }}"
+          sequence:
+            - variables:
+                slug: "{{ repeat.item | replace('counter.ev_daily_completed_', '') }}"
+
+            - service: counter.reset
+              data:
+                entity_id: "{{ 'counter.ev_daily_completed_' ~ slug }}"
+
+            - service: counter.reset
+              data:
+                entity_id: "{{ 'counter.ev_daily_failed_' ~ slug }}"
+
+            - service: input_number.set_value
+              data:
+                entity_id: "{{ 'input_number.ev_daily_energy_' ~ slug }}"
+                value: 0
+
+            - service: input_number.set_value
+              data:
+                entity_id: "{{ 'input_number.ev_daily_duration_' ~ slug }}"
+                value: 0
+
+            - service: input_number.set_value
+              data:
+                entity_id: "{{ 'input_number.ev_daily_max_power_' ~ slug }}"
+                value: 0
+    mode: single

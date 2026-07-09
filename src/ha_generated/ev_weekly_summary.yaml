@@ -1,0 +1,1671 @@
+# Generated automatically from the EV Excel file
+# Copy this file to: /config/packages/ev_weekly_summary.yaml
+
+counter:
+  ev_weekly_completed_00000000:
+    name: EV Weekly Completed 00000000
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_00000000:
+    name: EV Weekly Failed 00000000
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_00000001:
+    name: EV Weekly Completed 00000001
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_00000001:
+    name: EV Weekly Failed 00000001
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_00000002:
+    name: EV Weekly Completed 00000002
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_00000002:
+    name: EV Weekly Failed 00000002
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_02defedf:
+    name: EV Weekly Completed 02DEFEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_02defedf:
+    name: EV Weekly Failed 02DEFEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_04a60f38:
+    name: EV Weekly Completed 04A60F38
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_04a60f38:
+    name: EV Weekly Failed 04A60F38
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_06b4e245:
+    name: EV Weekly Completed 06B4E245
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_06b4e245:
+    name: EV Weekly Failed 06B4E245
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_0a3cf3a1:
+    name: EV Weekly Completed 0A3CF3A1
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_0a3cf3a1:
+    name: EV Weekly Failed 0A3CF3A1
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_0a43f089:
+    name: EV Weekly Completed 0A43F089
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_0a43f089:
+    name: EV Weekly Failed 0A43F089
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_1a5bec89:
+    name: EV Weekly Completed 1A5BEC89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_1a5bec89:
+    name: EV Weekly Failed 1A5BEC89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_24fa153b:
+    name: EV Weekly Completed 24FA153B
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_24fa153b:
+    name: EV Weekly Failed 24FA153B
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_2677e745:
+    name: EV Weekly Completed 2677E745
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_2677e745:
+    name: EV Weekly Failed 2677E745
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_26e6df45:
+    name: EV Weekly Completed 26E6DF45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_26e6df45:
+    name: EV Weekly Failed 26E6DF45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_2a28ee89:
+    name: EV Weekly Completed 2A28EE89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_2a28ee89:
+    name: EV Weekly Failed 2A28EE89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_2aa3f3a1:
+    name: EV Weekly Completed 2AA3F3A1
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_2aa3f3a1:
+    name: EV Weekly Failed 2AA3F3A1
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_32a6fddf:
+    name: EV Weekly Completed 32A6FDDF
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_32a6fddf:
+    name: EV Weekly Failed 32A6FDDF
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_42c5fedf:
+    name: EV Weekly Completed 42C5FEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_42c5fedf:
+    name: EV Weekly Failed 42C5FEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_44910d38:
+    name: EV Weekly Completed 44910D38
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_44910d38:
+    name: EV Weekly Failed 44910D38
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_5207fddf:
+    name: EV Weekly Completed 5207FDDF
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_5207fddf:
+    name: EV Weekly Failed 5207FDDF
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_5404153b:
+    name: EV Weekly Completed 5404153B
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_5404153b:
+    name: EV Weekly Failed 5404153B
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_54e30d38:
+    name: EV Weekly Completed 54E30D38
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_54e30d38:
+    name: EV Weekly Failed 54E30D38
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_5a66ef89:
+    name: EV Weekly Completed 5A66EF89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_5a66ef89:
+    name: EV Weekly Failed 5A66EF89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_625ffedf:
+    name: EV Weekly Completed 625FFEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_625ffedf:
+    name: EV Weekly Failed 625FFEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_648e153b:
+    name: EV Weekly Completed 648E153B
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_648e153b:
+    name: EV Weekly Failed 648E153B
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_6a0ff2a1:
+    name: EV Weekly Completed 6A0FF2A1
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_6a0ff2a1:
+    name: EV Weekly Failed 6A0FF2A1
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_74ea193b:
+    name: EV Weekly Completed 74EA193B
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_74ea193b:
+    name: EV Weekly Failed 74EA193B
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_7a25ef89:
+    name: EV Weekly Completed 7A25EF89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_7a25ef89:
+    name: EV Weekly Failed 7A25EF89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_84591338:
+    name: EV Weekly Completed 84591338
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_84591338:
+    name: EV Weekly Failed 84591338
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_869add45:
+    name: EV Weekly Completed 869ADD45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_869add45:
+    name: EV Weekly Failed 869ADD45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_929dfedf:
+    name: EV Weekly Completed 929DFEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_929dfedf:
+    name: EV Weekly Failed 929DFEDF
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_94a71038:
+    name: EV Weekly Completed 94A71038
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_94a71038:
+    name: EV Weekly Failed 94A71038
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_96f9df45:
+    name: EV Weekly Completed 96F9DF45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_96f9df45:
+    name: EV Weekly Failed 96F9DF45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_9a69ee89:
+    name: EV Weekly Completed 9A69EE89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_9a69ee89:
+    name: EV Weekly Failed 9A69EE89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_aa41f1a1:
+    name: EV Weekly Completed AA41F1A1
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_aa41f1a1:
+    name: EV Weekly Failed AA41F1A1
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_b631e045:
+    name: EV Weekly Completed B631E045
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_b631e045:
+    name: EV Weekly Failed B631E045
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_b652dd45:
+    name: EV Weekly Completed B652DD45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_b652dd45:
+    name: EV Weekly Failed B652DD45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_ba75f2a1:
+    name: EV Weekly Completed BA75F2A1
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_ba75f2a1:
+    name: EV Weekly Failed BA75F2A1
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_baa7ef89:
+    name: EV Weekly Completed BAA7EF89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_baa7ef89:
+    name: EV Weekly Failed BAA7EF89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_c14b3f34:
+    name: EV Weekly Completed C14B3F34
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_c14b3f34:
+    name: EV Weekly Failed C14B3F34
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_c6fae045:
+    name: EV Weekly Completed C6FAE045
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_c6fae045:
+    name: EV Weekly Failed C6FAE045
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_d6b1de45:
+    name: EV Weekly Completed D6B1DE45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_d6b1de45:
+    name: EV Weekly Failed D6B1DE45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_d6b9dc45:
+    name: EV Weekly Completed D6B9DC45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_d6b9dc45:
+    name: EV Weekly Failed D6B9DC45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_da42f089:
+    name: EV Weekly Completed DA42F089
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_da42f089:
+    name: EV Weekly Failed DA42F089
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_e4c0183b:
+    name: EV Weekly Completed E4C0183B
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_e4c0183b:
+    name: EV Weekly Failed E4C0183B
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_e666de45:
+    name: EV Weekly Completed E666DE45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_e666de45:
+    name: EV Weekly Failed E666DE45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_f692de45:
+    name: EV Weekly Completed F692DE45
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_f692de45:
+    name: EV Weekly Failed F692DE45
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_fa0bef89:
+    name: EV Weekly Completed FA0BEF89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_fa0bef89:
+    name: EV Weekly Failed FA0BEF89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_fa40ed89:
+    name: EV Weekly Completed FA40ED89
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_fa40ed89:
+    name: EV Weekly Failed FA40ED89
+    initial: 0
+    step: 1
+
+  ev_weekly_completed_test:
+    name: EV Weekly Completed Test
+    initial: 0
+    step: 1
+
+  ev_weekly_failed_test:
+    name: EV Weekly Failed Test
+    initial: 0
+    step: 1
+
+input_number:
+  ev_weekly_energy_00000000:
+    name: EV Weekly Energy 00000000
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_00000000:
+    name: EV Weekly Duration 00000000
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_00000000:
+    name: EV Weekly Max Power 00000000
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_00000001:
+    name: EV Weekly Energy 00000001
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_00000001:
+    name: EV Weekly Duration 00000001
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_00000001:
+    name: EV Weekly Max Power 00000001
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_00000002:
+    name: EV Weekly Energy 00000002
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_00000002:
+    name: EV Weekly Duration 00000002
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_00000002:
+    name: EV Weekly Max Power 00000002
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_02defedf:
+    name: EV Weekly Energy 02DEFEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_02defedf:
+    name: EV Weekly Duration 02DEFEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_02defedf:
+    name: EV Weekly Max Power 02DEFEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_04a60f38:
+    name: EV Weekly Energy 04A60F38
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_04a60f38:
+    name: EV Weekly Duration 04A60F38
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_04a60f38:
+    name: EV Weekly Max Power 04A60F38
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_06b4e245:
+    name: EV Weekly Energy 06B4E245
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_06b4e245:
+    name: EV Weekly Duration 06B4E245
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_06b4e245:
+    name: EV Weekly Max Power 06B4E245
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_0a3cf3a1:
+    name: EV Weekly Energy 0A3CF3A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_0a3cf3a1:
+    name: EV Weekly Duration 0A3CF3A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_0a3cf3a1:
+    name: EV Weekly Max Power 0A3CF3A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_0a43f089:
+    name: EV Weekly Energy 0A43F089
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_0a43f089:
+    name: EV Weekly Duration 0A43F089
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_0a43f089:
+    name: EV Weekly Max Power 0A43F089
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_1a5bec89:
+    name: EV Weekly Energy 1A5BEC89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_1a5bec89:
+    name: EV Weekly Duration 1A5BEC89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_1a5bec89:
+    name: EV Weekly Max Power 1A5BEC89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_24fa153b:
+    name: EV Weekly Energy 24FA153B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_24fa153b:
+    name: EV Weekly Duration 24FA153B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_24fa153b:
+    name: EV Weekly Max Power 24FA153B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_2677e745:
+    name: EV Weekly Energy 2677E745
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_2677e745:
+    name: EV Weekly Duration 2677E745
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_2677e745:
+    name: EV Weekly Max Power 2677E745
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_26e6df45:
+    name: EV Weekly Energy 26E6DF45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_26e6df45:
+    name: EV Weekly Duration 26E6DF45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_26e6df45:
+    name: EV Weekly Max Power 26E6DF45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_2a28ee89:
+    name: EV Weekly Energy 2A28EE89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_2a28ee89:
+    name: EV Weekly Duration 2A28EE89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_2a28ee89:
+    name: EV Weekly Max Power 2A28EE89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_2aa3f3a1:
+    name: EV Weekly Energy 2AA3F3A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_2aa3f3a1:
+    name: EV Weekly Duration 2AA3F3A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_2aa3f3a1:
+    name: EV Weekly Max Power 2AA3F3A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_32a6fddf:
+    name: EV Weekly Energy 32A6FDDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_32a6fddf:
+    name: EV Weekly Duration 32A6FDDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_32a6fddf:
+    name: EV Weekly Max Power 32A6FDDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_42c5fedf:
+    name: EV Weekly Energy 42C5FEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_42c5fedf:
+    name: EV Weekly Duration 42C5FEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_42c5fedf:
+    name: EV Weekly Max Power 42C5FEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_44910d38:
+    name: EV Weekly Energy 44910D38
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_44910d38:
+    name: EV Weekly Duration 44910D38
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_44910d38:
+    name: EV Weekly Max Power 44910D38
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_5207fddf:
+    name: EV Weekly Energy 5207FDDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_5207fddf:
+    name: EV Weekly Duration 5207FDDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_5207fddf:
+    name: EV Weekly Max Power 5207FDDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_5404153b:
+    name: EV Weekly Energy 5404153B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_5404153b:
+    name: EV Weekly Duration 5404153B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_5404153b:
+    name: EV Weekly Max Power 5404153B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_54e30d38:
+    name: EV Weekly Energy 54E30D38
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_54e30d38:
+    name: EV Weekly Duration 54E30D38
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_54e30d38:
+    name: EV Weekly Max Power 54E30D38
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_5a66ef89:
+    name: EV Weekly Energy 5A66EF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_5a66ef89:
+    name: EV Weekly Duration 5A66EF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_5a66ef89:
+    name: EV Weekly Max Power 5A66EF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_625ffedf:
+    name: EV Weekly Energy 625FFEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_625ffedf:
+    name: EV Weekly Duration 625FFEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_625ffedf:
+    name: EV Weekly Max Power 625FFEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_648e153b:
+    name: EV Weekly Energy 648E153B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_648e153b:
+    name: EV Weekly Duration 648E153B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_648e153b:
+    name: EV Weekly Max Power 648E153B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_6a0ff2a1:
+    name: EV Weekly Energy 6A0FF2A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_6a0ff2a1:
+    name: EV Weekly Duration 6A0FF2A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_6a0ff2a1:
+    name: EV Weekly Max Power 6A0FF2A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_74ea193b:
+    name: EV Weekly Energy 74EA193B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_74ea193b:
+    name: EV Weekly Duration 74EA193B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_74ea193b:
+    name: EV Weekly Max Power 74EA193B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_7a25ef89:
+    name: EV Weekly Energy 7A25EF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_7a25ef89:
+    name: EV Weekly Duration 7A25EF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_7a25ef89:
+    name: EV Weekly Max Power 7A25EF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_84591338:
+    name: EV Weekly Energy 84591338
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_84591338:
+    name: EV Weekly Duration 84591338
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_84591338:
+    name: EV Weekly Max Power 84591338
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_869add45:
+    name: EV Weekly Energy 869ADD45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_869add45:
+    name: EV Weekly Duration 869ADD45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_869add45:
+    name: EV Weekly Max Power 869ADD45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_929dfedf:
+    name: EV Weekly Energy 929DFEDF
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_929dfedf:
+    name: EV Weekly Duration 929DFEDF
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_929dfedf:
+    name: EV Weekly Max Power 929DFEDF
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_94a71038:
+    name: EV Weekly Energy 94A71038
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_94a71038:
+    name: EV Weekly Duration 94A71038
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_94a71038:
+    name: EV Weekly Max Power 94A71038
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_96f9df45:
+    name: EV Weekly Energy 96F9DF45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_96f9df45:
+    name: EV Weekly Duration 96F9DF45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_96f9df45:
+    name: EV Weekly Max Power 96F9DF45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_9a69ee89:
+    name: EV Weekly Energy 9A69EE89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_9a69ee89:
+    name: EV Weekly Duration 9A69EE89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_9a69ee89:
+    name: EV Weekly Max Power 9A69EE89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_aa41f1a1:
+    name: EV Weekly Energy AA41F1A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_aa41f1a1:
+    name: EV Weekly Duration AA41F1A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_aa41f1a1:
+    name: EV Weekly Max Power AA41F1A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_b631e045:
+    name: EV Weekly Energy B631E045
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_b631e045:
+    name: EV Weekly Duration B631E045
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_b631e045:
+    name: EV Weekly Max Power B631E045
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_b652dd45:
+    name: EV Weekly Energy B652DD45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_b652dd45:
+    name: EV Weekly Duration B652DD45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_b652dd45:
+    name: EV Weekly Max Power B652DD45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_ba75f2a1:
+    name: EV Weekly Energy BA75F2A1
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_ba75f2a1:
+    name: EV Weekly Duration BA75F2A1
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_ba75f2a1:
+    name: EV Weekly Max Power BA75F2A1
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_baa7ef89:
+    name: EV Weekly Energy BAA7EF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_baa7ef89:
+    name: EV Weekly Duration BAA7EF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_baa7ef89:
+    name: EV Weekly Max Power BAA7EF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_c14b3f34:
+    name: EV Weekly Energy C14B3F34
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_c14b3f34:
+    name: EV Weekly Duration C14B3F34
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_c14b3f34:
+    name: EV Weekly Max Power C14B3F34
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_c6fae045:
+    name: EV Weekly Energy C6FAE045
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_c6fae045:
+    name: EV Weekly Duration C6FAE045
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_c6fae045:
+    name: EV Weekly Max Power C6FAE045
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_d6b1de45:
+    name: EV Weekly Energy D6B1DE45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_d6b1de45:
+    name: EV Weekly Duration D6B1DE45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_d6b1de45:
+    name: EV Weekly Max Power D6B1DE45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_d6b9dc45:
+    name: EV Weekly Energy D6B9DC45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_d6b9dc45:
+    name: EV Weekly Duration D6B9DC45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_d6b9dc45:
+    name: EV Weekly Max Power D6B9DC45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_da42f089:
+    name: EV Weekly Energy DA42F089
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_da42f089:
+    name: EV Weekly Duration DA42F089
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_da42f089:
+    name: EV Weekly Max Power DA42F089
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_e4c0183b:
+    name: EV Weekly Energy E4C0183B
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_e4c0183b:
+    name: EV Weekly Duration E4C0183B
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_e4c0183b:
+    name: EV Weekly Max Power E4C0183B
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_e666de45:
+    name: EV Weekly Energy E666DE45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_e666de45:
+    name: EV Weekly Duration E666DE45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_e666de45:
+    name: EV Weekly Max Power E666DE45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_f692de45:
+    name: EV Weekly Energy F692DE45
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_f692de45:
+    name: EV Weekly Duration F692DE45
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_f692de45:
+    name: EV Weekly Max Power F692DE45
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_fa0bef89:
+    name: EV Weekly Energy FA0BEF89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_fa0bef89:
+    name: EV Weekly Duration FA0BEF89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_fa0bef89:
+    name: EV Weekly Max Power FA0BEF89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_fa40ed89:
+    name: EV Weekly Energy FA40ED89
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_fa40ed89:
+    name: EV Weekly Duration FA40ED89
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_fa40ed89:
+    name: EV Weekly Max Power FA40ED89
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+  ev_weekly_energy_test:
+    name: EV Weekly Energy Test
+    min: 0
+    max: 100000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_weekly_duration_test:
+    name: EV Weekly Duration Test
+    min: 0
+    max: 100000
+    step: 1
+    unit_of_measurement: "min"
+
+  ev_weekly_max_power_test:
+    name: EV Weekly Max Power Test
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kW"
+
+group:
+  ev_weekly_vehicle_completed_counters:
+    name: EV Weekly Vehicle Completed Counters
+    entities:
+      - counter.ev_weekly_completed_00000000
+      - counter.ev_weekly_completed_00000001
+      - counter.ev_weekly_completed_00000002
+      - counter.ev_weekly_completed_02defedf
+      - counter.ev_weekly_completed_04a60f38
+      - counter.ev_weekly_completed_06b4e245
+      - counter.ev_weekly_completed_0a3cf3a1
+      - counter.ev_weekly_completed_0a43f089
+      - counter.ev_weekly_completed_1a5bec89
+      - counter.ev_weekly_completed_24fa153b
+      - counter.ev_weekly_completed_2677e745
+      - counter.ev_weekly_completed_26e6df45
+      - counter.ev_weekly_completed_2a28ee89
+      - counter.ev_weekly_completed_2aa3f3a1
+      - counter.ev_weekly_completed_32a6fddf
+      - counter.ev_weekly_completed_42c5fedf
+      - counter.ev_weekly_completed_44910d38
+      - counter.ev_weekly_completed_5207fddf
+      - counter.ev_weekly_completed_5404153b
+      - counter.ev_weekly_completed_54e30d38
+      - counter.ev_weekly_completed_5a66ef89
+      - counter.ev_weekly_completed_625ffedf
+      - counter.ev_weekly_completed_648e153b
+      - counter.ev_weekly_completed_6a0ff2a1
+      - counter.ev_weekly_completed_74ea193b
+      - counter.ev_weekly_completed_7a25ef89
+      - counter.ev_weekly_completed_84591338
+      - counter.ev_weekly_completed_869add45
+      - counter.ev_weekly_completed_929dfedf
+      - counter.ev_weekly_completed_94a71038
+      - counter.ev_weekly_completed_96f9df45
+      - counter.ev_weekly_completed_9a69ee89
+      - counter.ev_weekly_completed_aa41f1a1
+      - counter.ev_weekly_completed_b631e045
+      - counter.ev_weekly_completed_b652dd45
+      - counter.ev_weekly_completed_ba75f2a1
+      - counter.ev_weekly_completed_baa7ef89
+      - counter.ev_weekly_completed_c14b3f34
+      - counter.ev_weekly_completed_c6fae045
+      - counter.ev_weekly_completed_d6b1de45
+      - counter.ev_weekly_completed_d6b9dc45
+      - counter.ev_weekly_completed_da42f089
+      - counter.ev_weekly_completed_e4c0183b
+      - counter.ev_weekly_completed_e666de45
+      - counter.ev_weekly_completed_f692de45
+      - counter.ev_weekly_completed_fa0bef89
+      - counter.ev_weekly_completed_fa40ed89
+      - counter.ev_weekly_completed_test
+
+automation:
+  - alias: EV Update Weekly Analytics Per Vehicle
+    trigger:
+      - platform: mqtt
+        topic: ev/building103/charging_sessions
+    condition:
+      - condition: template
+        value_template: "{{ trigger.payload_json.id_tag_slug is defined }}"
+    variables:
+      vehicle_slug: "{{ trigger.payload_json.id_tag_slug }}"
+      session_status: "{{ trigger.payload_json.session_status | default('unknown') }}"
+      completed_counter: "counter.ev_weekly_completed_{{ vehicle_slug }}"
+      failed_counter: "counter.ev_weekly_failed_{{ vehicle_slug }}"
+      energy_entity: "input_number.ev_weekly_energy_{{ vehicle_slug }}"
+      duration_entity: "input_number.ev_weekly_duration_{{ vehicle_slug }}"
+      max_power_entity: "input_number.ev_weekly_max_power_{{ vehicle_slug }}"
+      energy_value: "{{ trigger.payload_json.energy_kwh | default(0) | float(0) }}"
+      duration_value: "{{ trigger.payload_json.duration | default(0) | float(0) }}"
+      power_value: "{{ trigger.payload_json.max_power_kw | default(0) | float(0) }}"
+    action:
+      - choose:
+          - conditions:
+              - condition: template
+                value_template: "{{ session_status == 'ended' and states(completed_counter) not in ['unknown', 'unavailable'] }}"
+            sequence:
+              - service: counter.increment
+                data:
+                  entity_id: "{{ completed_counter }}"
+
+              - service: input_number.set_value
+                data:
+                  entity_id: "{{ energy_entity }}"
+                  value: "{{ states(energy_entity) | float(0) + energy_value }}"
+
+              - service: input_number.set_value
+                data:
+                  entity_id: "{{ duration_entity }}"
+                  value: "{{ states(duration_entity) | float(0) + duration_value }}"
+
+              - choose:
+                  - conditions:
+                      - condition: template
+                        value_template: "{{ power_value > (states(max_power_entity) | float(0)) }}"
+                    sequence:
+                      - service: input_number.set_value
+                        data:
+                          entity_id: "{{ max_power_entity }}"
+                          value: "{{ power_value }}"
+
+          - conditions:
+              - condition: template
+                value_template: "{{ session_status == 'failed' and states(failed_counter) not in ['unknown', 'unavailable'] }}"
+            sequence:
+              - service: counter.increment
+                data:
+                  entity_id: "{{ failed_counter }}"
+    mode: queued
+
+  - alias: EV Weekly Charging Summary For All Vehicles
+    trigger:
+      - platform: time
+        at: "20:00:00"
+    condition:
+      - condition: time
+        weekday:
+          - sun
+    action:
+      - repeat:
+          for_each: "{{ expand('group.ev_weekly_vehicle_completed_counters') | map(attribute='entity_id') | list }}"
+          sequence:
+            - variables:
+                slug: "{{ repeat.item | replace('counter.ev_weekly_completed_', '') }}"
+                vehicle_name: "{{ state_attr(repeat.item, 'friendly_name') | replace('EV Weekly Completed ', '') }}"
+                completed: "{{ states('counter.ev_weekly_completed_' ~ slug) }}"
+                failed: "{{ states('counter.ev_weekly_failed_' ~ slug) }}"
+                energy: "{{ states('input_number.ev_weekly_energy_' ~ slug) }}"
+                duration: "{{ states('input_number.ev_weekly_duration_' ~ slug) }}"
+                max_power: "{{ states('input_number.ev_weekly_max_power_' ~ slug) }}"
+
+            - service: notify.mobile_app_fotis_device
+              data:
+                title: "EV Weekly Summary {{ vehicle_name }}"
+                message: >
+                  Completed sessions: {{ completed }}
+                  Failed sessions: {{ failed }}
+                  Total energy: {{ energy }} kWh
+                  Total duration: {{ duration }} min
+                  Max power: {{ max_power }} kW
+                data:
+                  tag: "weekly_summary_{{ slug }}"
+                  group: "weekly_summary_{{ slug }}"
+                  channel: "EV Weekly Summary"
+
+            - delay:
+                seconds: 2
+
+      - repeat:
+          for_each: "{{ expand('group.ev_weekly_vehicle_completed_counters') | map(attribute='entity_id') | list }}"
+          sequence:
+            - variables:
+                slug: "{{ repeat.item | replace('counter.ev_weekly_completed_', '') }}"
+
+            - service: counter.reset
+              data:
+                entity_id: "{{ 'counter.ev_weekly_completed_' ~ slug }}"
+
+            - service: counter.reset
+              data:
+                entity_id: "{{ 'counter.ev_weekly_failed_' ~ slug }}"
+
+            - service: input_number.set_value
+              data:
+                entity_id: "{{ 'input_number.ev_weekly_energy_' ~ slug }}"
+                value: 0
+
+            - service: input_number.set_value
+              data:
+                entity_id: "{{ 'input_number.ev_weekly_duration_' ~ slug }}"
+                value: 0
+
+            - service: input_number.set_value
+              data:
+                entity_id: "{{ 'input_number.ev_weekly_max_power_' ~ slug }}"
+                value: 0
+    mode: single

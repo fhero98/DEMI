@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    {
+      "energyKWh": "https://example.org/ev#energyKWh",
+      "powerKW": "https://example.org/ev#powerKW",
+      "refChargingPoint": "https://example.org/ev#refChargingPoint"
+    }
+  ],
+  "energyKWh": { "type": "Property", "value": 6 },
+  "powerKW": { "type": "Property", "value": 7.2 }
+}

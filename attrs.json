@@ -1,0 +1,14 @@
+{
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    {
+      "energyKWh": "https://example.org/ev#energyKWh",
+      "powerKW": "https://example.org/ev#powerKW",
+      "refChargingPoint": "https://example.org/ev#refChargingPoint"
+    }
+  ],
+  "refChargingPoint": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:ChargingPoint:Res-01"
+  }
+}

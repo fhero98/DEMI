@@ -1,0 +1,347 @@
+- id: ev_count_completed_sessions
+  alias: EV Charging Completed
+  description: Notify user when charging session has completed
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: "{% set data = trigger.payload_json %} {% set status = data.session_status
+      | default('') | string | lower | trim %} {% set session_id = data.session_id
+      | default('') | string | trim %} {{ status in ['ended', 'completed', 'finished']\n
+      \  and session_id|length > 0 }}\n"
+  - condition: template
+    value_template: "{{ this.attributes.last_triggered is none\n   or (now() - this.attributes.last_triggered).total_seconds()
+      > 10 }}\n"
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: EV Charging Completed
+      message: 'Your EV charging session has completed.
+
+        User/ID tag: {{ trigger.payload_json.id_tag | default(trigger.payload_json.user_name)
+        }} Session: {{ trigger.payload_json.session_id }} Energy delivered: {{ trigger.payload_json.energy_kwh
+        }} kWh Duration: {{ trigger.payload_json.duration }} minutes
+
+        Please move your vehicle if the charger is needed by others.
+
+        '
+  mode: single
+- id: ev_count_failed_sessions
+  alias: EV Count Failed Sessions
+  description: Count failed EV charging sessions for one selected user and notify
+    operator
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: "{% set data = trigger.payload_json %} {% set current_id = data.session_id
+      | default('') | string | trim %} {% set status = data.session_status | default('')
+      | string | lower | trim %} {% set id_tag = data.id_tag | default(data.user_name)
+      | string | trim %} {% set last_id = states('input_text.last_failed_session_id')
+      | string | trim %} {{ status == 'failed'\n   and id_tag == '2AA3F3A1'\n   and
+      current_id|length > 0\n   and current_id != last_id }}\n"
+  actions:
+  - target:
+      entity_id: counter.ev_failed_sessions
+    action: counter.increment
+  - target:
+      entity_id: input_text.last_failed_session_id
+    data:
+      value: '{{ trigger.payload_json.session_id }}'
+    action: input_text.set_value
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: EV Charging Failed
+      message: 'Charging session failed.
+
+        User/ID tag: {{ trigger.payload_json.id_tag | default(trigger.payload_json.user_name)
+        }} Session: {{ trigger.payload_json.session_id }} Energy: {{ trigger.payload_json.energy_kwh
+        }} kWh Duration: {{ trigger.payload_json.duration }} minutes Charging duration:
+        {{ trigger.payload_json.charging_duration }} minutes Max power: {{ trigger.payload_json.max_power_kw
+        }} kW
+
+        '
+  mode: queued
+- id: '1778453075553'
+  alias: EV Recommend Charging During Low Building Load
+  description: Notify when building load becomes low
+  triggers:
+  - topic: ev/building103/building_load
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: '{% set data = trigger.payload_json %} {% set status = data.status
+      | default('''') | string | lower | trim %} {% set power = data.power_kw | default(0)
+      | float %} {{ status == ''low'' and power < 5 }}
+
+      '
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: Good Time to Charge EV
+      message: 'Low building consumption detected.
+
+        Building: {{ trigger.payload_json.building }} Current load: {{ trigger.payload_json.power_kw
+        }} kW
+
+        This is a recommended time to charge your EV.
+
+        '
+  mode: queued
+- id: '1778538224682'
+  alias: EV Avoid Charging During High Building Load
+  description: Notify when building load is high and EV charging should be avoided
+  triggers:
+  - topic: ev/building103/building_load
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: '{% set data = trigger.payload_json %} {% set status = data.status
+      | default('''') | string | lower | trim %} {% set power = data.power_kw | default(0)
+      | float %} {{ status == ''high'' and power >= 12 }}
+
+      '
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: Avoid EV Charging Now
+      message: 'High building consumption detected.
+
+        Building: {{ trigger.payload_json.building }} Current load: {{ trigger.payload_json.power_kw
+        }} kW
+
+        It is better to delay EV charging until building demand is lower.
+
+        '
+  mode: queued
+- id: '1778626145616'
+  alias: EV Possible Plug Issue
+  description: Notify user when session failed almost immediately
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: "{% set data = trigger.payload_json %} {% set status = data.session_status
+      | default('') | string | lower | trim %} {% set energy = data.energy_kwh | default(0)
+      | float %} {% set charging_duration = data.charging_duration | default(0) |
+      int %} {% set session_id = data.session_id | default('') | string | trim %}
+      {{ status == 'failed'\n   and energy < 0.1\n   and charging_duration <= 1\n
+      \  and session_id|length > 0 }}\n"
+  - condition: template
+    value_template: "{{ this.attributes.last_triggered is none\n   or (now() - this.attributes.last_triggered).total_seconds()
+      > 10 }}\n"
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: Possible EV Plug Issue
+      message: 'Your charging session failed almost immediately.
+
+        User/ID tag: {{ trigger.payload_json.id_tag | default(trigger.payload_json.user_name)
+        }} Session: {{ trigger.payload_json.session_id }} Energy delivered: {{ trigger.payload_json.energy_kwh
+        }} kWh Charging duration: {{ trigger.payload_json.charging_duration }} minutes
+        Max power: {{ trigger.payload_json.max_power_kw }} kW
+
+        Please check if the cable is connected correctly.
+
+        '
+  mode: single
+- id: '1778710394622'
+  alias: EV Slow Charging Warning
+  description: Notify user when charging seems inefficient
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: "{% set data = trigger.payload_json %} {% set status = data.session_status
+      | default('') | string | lower | trim %} {% set energy = data.energy_kwh | default(0)
+      | float %} {% set duration = data.duration | default(0) | int %} {% set session_id
+      = data.session_id | default('') | string | trim %} {{ status in ['ended', 'completed',
+      'finished']\n   and duration > 90\n   and energy < 2\n   and session_id|length
+      > 0 }}\n"
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: Slow EV Charging Detected
+      message: 'Your EV charging session may have been inefficient.
+
+        User/ID tag: {{ trigger.payload_json.id_tag | default(trigger.payload_json.user_name)
+        }} Session: {{ trigger.payload_json.session_id }} Duration: {{ trigger.payload_json.duration
+        }} minutes Energy delivered: {{ trigger.payload_json.energy_kwh }} kWh Max
+        power: {{ trigger.payload_json.max_power_kw }} kW
+
+        Please check the charger, cable, or vehicle charging settings.
+
+        '
+  mode: single
+- id: '1778710428243'
+  alias: EV High Energy Session Per Vehicle
+  description: Notify user when a vehicle charging session uses high energy
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: '{{ trigger.payload_json.session_status | default(''unknown'')
+      == ''ended'' }}
+
+      '
+  - condition: template
+    value_template: '{{ trigger.payload_json.energy_kwh | default(0) | float(0) >=
+      30 }}
+
+      '
+  - condition: template
+    value_template: '{{ trigger.payload_json.session_id | default('''') | string |
+      trim | length > 0 }}
+
+      '
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: High Energy EV Session
+      message: 'Vehicle: {{ trigger.payload_json.id_tag | default(''unknown'') }}
+        Energy delivered: {{ trigger.payload_json.energy_kwh | default(0) }} kWh Duration:
+        {{ trigger.payload_json.duration | default(0) }} minutes Max power: {{ trigger.payload_json.max_power_kw
+        | default(0) }} kW Session: {{ trigger.payload_json.session_id | default(''unknown'')
+        }}
+
+        '
+      data:
+        tag: high_energy_{{ trigger.payload_json.session_id | default('unknown') }}
+        group: high_energy_{{ trigger.payload_json.id_tag_slug | default('unknown')
+          }}
+        channel: EV Alerts
+  mode: queued
+- id: '1779317922334'
+  alias: EV Charging Started
+  description: Notify once when a new EV charging session starts
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: '{% set status = trigger.payload_json.session_status | default('''')
+      %} {% set session_id = trigger.payload_json.session_id | default('''') | string
+      | trim %} {% set last_session = states(''input_text.ev_last_started_session'')
+      | string | trim %} {{ status == ''charging'' and session_id|length > 0 and session_id
+      != last_session }}
+
+      '
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: EV Charging Started
+      message: 'EV charging session started.
+
+        User/ID tag: {{ trigger.payload_json.id_tag | default(trigger.payload_json.user_name)
+        | default(''Unknown'') }} Session: {{ trigger.payload_json.session_id }} Max
+        power: {{ trigger.payload_json.max_power_kw | default(''N/A'') }} kW
+
+        '
+  - action: input_text.set_value
+    target:
+      entity_id: input_text.ev_last_started_session
+    data:
+      value: '{{ trigger.payload_json.session_id }}'
+  mode: single
+- id: '1779318168015'
+  alias: EV Low Energy Session Per Vehicle
+  description: Notify when a completed charging session delivered very low energy
+  triggers:
+  - topic: ev/building103/charging_sessions
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: '{{ trigger.payload_json.session_status | default(''unknown'')
+      in [''completed'', ''ended''] }}
+
+      '
+  - condition: template
+    value_template: '{{ trigger.payload_json.energy_kwh | default(0) | float(0) >
+      0 }}
+
+      '
+  - condition: template
+    value_template: '{{ trigger.payload_json.energy_kwh | default(0) | float(0) <
+      1 }}
+
+      '
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: Low Energy EV Session
+      message: 'Vehicle {{ trigger.payload_json.id_tag | default(''Unknown'') }} delivered
+        only {{ trigger.payload_json.energy_kwh | default(0) }} kWh.
+
+        Duration: {{ trigger.payload_json.duration | default(''N/A'') }} minutes Session:
+        {{ trigger.payload_json.session_id | default(''N/A'') }}
+
+        Possible early unplug or charging interruption.
+
+        '
+      data:
+        tag: low_energy_{{ trigger.payload_json.session_id | default('unknown') }}
+        group: low_energy_{{ trigger.payload_json.id_tag_slug | default('unknown')
+          }}
+        channel: EV Alerts
+  mode: queued
+- id: '1779318220421'
+  alias: EV Peak Load Protection
+  description: Notify when high building load is detected, with cooldown
+  triggers:
+  - topic: ev/building103/building_load
+    trigger: mqtt
+  conditions:
+  - condition: template
+    value_template: "{% set status = trigger.payload_json.status | default('') %}
+      {% set last = this.attributes.last_triggered %} {{ status == 'high' and (\n
+      \   last is none or\n    (now() - last).total_seconds() > 3600\n) }}\n"
+  actions:
+  - action: notify.mobile_app_fotis_device
+    data:
+      title: EV Peak Load Protection
+      message: 'High building load detected.
+
+        Current building load: {{ trigger.payload_json.power_kw | default(''N/A'')
+        }} kW Consider reducing or delaying EV charging to protect building capacity.
+
+        '
+  mode: single
+
+- alias: EV Log Charging Session To Logbook
+  description: Store every EV charging session in Home Assistant Logbook
+  trigger:
+    - platform: mqtt
+      topic: ev/building103/charging_sessions
+
+  condition:
+    - condition: template
+      value_template: >
+        {{ trigger.payload_json.session_id | default('') | string | trim | length > 0 }}
+
+  variables:
+    session_id: "{{ trigger.payload_json.session_id | default('unknown') }}"
+    vehicle_id: "{{ trigger.payload_json.id_tag | default('unknown') }}"
+    status: "{{ trigger.payload_json.session_status | default('unknown') }}"
+    energy: "{{ trigger.payload_json.energy_kwh | default(0) }}"
+    duration: "{{ trigger.payload_json.duration | default(0) }}"
+    max_power: "{{ trigger.payload_json.max_power_kw | default(0) }}"
+    evse_id: "{{ trigger.payload_json.evse_id | default('unknown') }}"
+
+  action:
+    - service: logbook.log
+      data:
+        name: "EV Session {{ vehicle_id }}"
+        message: >
+          Session ID: {{ session_id }}
+          Status: {{ status }}
+          Energy: {{ energy }} kWh
+          Duration: {{ duration }} min
+          Max power: {{ max_power }} kW
+          Charger: {{ evse_id }}
+
+  mode: queued

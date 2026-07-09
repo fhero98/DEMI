@@ -1,0 +1,19 @@
+{
+  "id": "urn:ngsi-ld:ChargingSession:Res-01-Session-1",
+  "type": "ChargingSession",
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    {
+      "energyKWh": "https://example.org/ev#energyKWh",
+      "powerKW": "https://example.org/ev#powerKW",
+      "refChargingPoint": "https://example.org/ev#refChargingPoint"
+    }
+  ],
+  "energyKWh": { "type": "Property", "value": 0 },
+  "powerKW": { "type": "Property", "value": 0 },
+  "refChargingPoint": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:ChargingPoint:Res-01"
+  },
+  "status": { "type": "Property", "value": "active" }
+}

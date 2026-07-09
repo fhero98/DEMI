@@ -1,0 +1,158 @@
+default_config:
+
+homeassistant:
+  packages: !include_dir_named packages
+
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+mqtt:
+  sensor:
+    # =====================================================
+    # GENERAL / LAST RECEIVED VEHICLE SESSION
+    # =====================================================
+    - name: "Charging Power"
+      unique_id: "charging_power"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.max_power_kw | default(0) }}"
+      unit_of_measurement: "kW"
+      device_class: power
+      state_class: measurement
+
+    - name: "Energy Delivered"
+      unique_id: "energy_delivered"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.energy_kwh | default(0) }}"
+      unit_of_measurement: "kWh"
+      device_class: energy
+      state_class: measurement
+
+    - name: "Charging Status"
+      unique_id: "charging_status"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.session_status | default('unknown') }}"
+
+    - name: "Session Start Date"
+      unique_id: "session_start_date"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.start_date | default('—') }}"
+
+    - name: "Session End Date"
+      unique_id: "session_end_date"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.end_date | default('—') }}"
+
+    - name: "Session ID"
+      unique_id: "session_id"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.session_id | default('—') }}"
+
+    - name: "Vehicle ID"
+      unique_id: "vehicle_id"
+      state_topic: "ev/building103/vehicles/+/session"
+      value_template: "{{ value_json.id_tag | default('—') }}"
+
+    - name: "Building 103 Power"
+      unique_id: building_103_power
+      state_topic: "ev/building103/building_load"
+      value_template: "{{ value_json.power_kw }}"
+      unit_of_measurement: "kW"
+      device_class: power
+      state_class: measurement
+
+    - name: "Building 103 Load Status"
+      unique_id: building_103_load_status
+      state_topic: "ev/building103/building_load"
+      value_template: "{{ value_json.status }}"
+
+counter:
+  ev_total_sessions:
+    name: EV Completed Charging Sessions
+    initial: 0
+    step: 1
+
+  ev_failed_sessions:
+    name: EV Failed Charging Sessions
+    initial: 0
+    step: 1
+
+
+input_text:
+  last_completed_session_id:
+    name: Last Completed Session ID
+    initial: "none"
+
+  last_failed_session_id:
+    name: Last Failed Session ID
+    initial: "none"
+
+  last_vehicle_id:
+    name: Last Vehicle ID
+    initial: "none"
+
+
+input_number:
+  ev_last_session_energy:
+    name: Last Session Energy
+    min: 0
+    max: 1000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_total_energy:
+    name: EV Total Energy
+    min: 0
+    max: 1000000
+    step: 0.01
+    unit_of_measurement: "kWh"
+
+  ev_last_session_duration:
+    name: Last Session Duration
+    min: 0
+    max: 10000
+    step: 1
+    unit_of_measurement: "min"
+
+
+utility_meter:
+  ev_daily_sessions:
+    source: counter.ev_total_sessions
+    cycle: daily
+
+  ev_weekly_sessions:
+    source: counter.ev_total_sessions
+    cycle: weekly
+
+  ev_monthly_sessions:
+    source: counter.ev_total_sessions
+    cycle: monthly
+
+  ev_daily_failed_sessions:
+    source: counter.ev_failed_sessions
+    cycle: daily
+
+  ev_weekly_failed_sessions:
+    source: counter.ev_failed_sessions
+    cycle: weekly
+
+  ev_monthly_failed_sessions:
+    source: counter.ev_failed_sessions
+    cycle: monthly
+
+  ev_daily_energy:
+    source: input_number.ev_total_energy
+    cycle: daily
+
+  ev_weekly_energy:
+    source: input_number.ev_total_energy
+    cycle: weekly
+
+  ev_monthly_energy:
+    source: input_number.ev_total_energy
+    cycle: monthly
+
+
