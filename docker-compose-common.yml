@@ -1,17 +1,13 @@
-version: '3'
-
 services:
-
   orion:
     image: fiware/orion-ld:1.4.0
     ports:
       - "1026:1026"
     command: -logLevel DEBUG -dbhost mongo
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://0.0.0.0:1026/version"]
-      interval: 1m
-      timeout: 10s
-      retries: 3
+    depends_on:
+      - mongo
+    networks:
+      - demo
 
   mongo:
     image: mongo:${MONGO_VERSION:-4.4}
@@ -19,20 +15,30 @@ services:
       - "27017:27017"
     volumes:
       - mongodata:/data/db
+    networks:
+      - demo
 
   crate:
     image: crate:${CRATE_VERSION:-4.6.7}
-    command: crate -Cauth.host_based.enabled=false
-      -Ccluster.name=democluster -Chttp.cors.enabled=true -Chttp.cors.allow-origin="*"
+    command: >
+      crate
+      -Cauth.host_based.enabled=false
+      -Ccluster.name=democluster
+      -Chttp.cors.enabled=true
+      -Chttp.cors.allow-origin="*"
+      -Cpsql.enabled=true
+      -Cpsql.port=5432
     environment:
-      - LOG4J_FORMAT_MSG_NO_LOOKUPS=true
+      LOG4J_FORMAT_MSG_NO_LOOKUPS: "true"
     ports:
-      # Admin UI
       - "4200:4200"
-      # Transport protocol
       - "4300:4300"
+    expose:
+      - "5432"
     volumes:
       - cratedata:/data
+    networks:
+      - demo
 
   redis:
     image: redis:${REDIS_VERSION:-6.2.3}
@@ -40,84 +46,60 @@ services:
       - "6379:6379"
     volumes:
       - redisdata:/data
-
-  redis-commander:
-    image: rediscommander/redis-commander:latest
-    restart: always
-    environment:
-    - REDIS_HOSTS=local:redis:6379:1
-    ports:
-    - "8081:8081"
+    networks:
+      - demo
 
   timescale:
     image: timescale/timescaledb-ha:${TIMESCALE_VERSION:-pg13.16-ts2.15.3-oss}
     ports:
       - "5432:5432"
-      # Don't expose container port 5432 with the same number outside of the
-      # swarm. In the Travis test env, there's already a PG instance running
-      # on port 5432!
     environment:
-      - POSTGRES_PASSWORD=*
-
-  pgadmin:
-    image: dpage/pgadmin4:4.26
-    restart: always
-    environment:
-      - PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED=False
-      - PGADMIN_CONFIG_SERVER_MODE=False
-      - PGADMIN_DEFAULT_EMAIL=admin@admin.org
-      - PGADMIN_DEFAULT_PASSWORD=admin
-      - PGADMIN_LISTEN_PORT=80
-    ports:
-      - "8080:80"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:-postgres}"
+    networks:
+      - demo
 
   grafana:
-    image: grafana/grafana
+    image: grafana/grafana:10.4.2
     ports:
       - "3000:3000"
+    environment:
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+    networks:
+      - demo
 
-  dashboard:
-    image: pranavgupta1234/rqmonitor
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - C:/Users/herod/Desktop/DEMI/homeassistant/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
     ports:
-      - "8899:8899"
-    environment:
-      - RQ_MONITOR_REDIS_URL=redis://redis:6379
-
-  quantumleap-db-setup:
-    image: orchestracities/quantumleap-pg-init
-    environment:
-      - QL_DB_PASS=*
-      - QL_DB_INIT_DIR=/ql-db-init
-      - PG_HOST=timescale
-      - PG_PASS=*
-
+      - "8123:8123"
+    networks:
+      - demo
   quantumleap:
     image: orchestracities/quantumleap:${QL_VERSION:-latest}
     ports:
       - "8668:8668"
     environment:
-      - CRATE_HOST=${CRATE_HOST:-crate}
-      - USE_GEOCODING=True
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
-      - LOGLEVEL=DEBUG
+      QL_TABLE_PREFIX: "mt_"
+      QL_USE_GEOCODING: "false"
 
-  quantumleap-wq:
-    image: ${QL_IMAGE:-orchestracities/quantumleap}
-    entrypoint: supervisord -n -c ./wq/supervisord.conf
+      # --- NGSI-LD mode ---
+      QL_ENABLE_NGSI_LD: "true"
+
+      # ---- DB target (CrateDB) ----
+      QL_DEFAULT_DB: "crate"
+      CRATE_HOST: "crate"
+      CRATE_PORT: "4200"
+
+      # ---- Logging ----
+      LOGLEVEL: "DEBUG"
+    depends_on:
+      - crate
+      - redis
     networks:
-      - wqtests
-    environment:
-      - WQ_WORKERS=2
-      - QL_DEFAULT_DB=timescale
-      - POSTGRES_HOST=timescale
-      - POSTGRES_PORT=5432
-      - POSTGRES_DB_NAME=quantumleap
-      - POSTGRES_DB_USER=quantumleap
-      - POSTGRES_DB_PASS=*
-      - POSTGRES_USE_SSL=False
-      - CRATE_HOST=${CRATE_HOST:-crate}
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
-      - LOGLEVEL=ERROR
-      - CACHE_QUERIES=True
+      - demo

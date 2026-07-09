@@ -1,7 +1,4 @@
-version: '3'
-
 services:
-
   orion:
     extends:
       file: docker-compose-common.yml
@@ -14,9 +11,9 @@ services:
       file: docker-compose-common.yml
       service: quantumleap
     depends_on:
-      - mongo
-      - orion
       - crate
+      - redis
+      - orion
 
   mongo:
     extends:
@@ -45,10 +42,17 @@ services:
       file: docker-compose-common.yml
       service: redis
 
+  homeassistant:
+    extends:
+      file: docker-compose-common.yml
+      service: homeassistant
+
 volumes:
   mongodata:
   cratedata:
   redisdata:
 
 networks:
-    default:
+  demo:
+    name: demo
+    driver: bridge
